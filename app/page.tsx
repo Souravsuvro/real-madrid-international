@@ -31,7 +31,7 @@ export default function RealMadridInternational() {
       },
       body: JSON.stringify({
         ...formData,
-        access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Replace with your key from https://web3forms.com
+        access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // User needs to replace with real key from web3forms.com
         subject: 'New Inquiry from Website',
       }),
     });
@@ -105,7 +105,7 @@ export default function RealMadridInternational() {
               </h1>
               
               <p className="text-2xl text-white/90 max-w-lg">
-                Your Trusted Partner for Recruitment & Travel Services in Bangladesh
+                Your Trusted Partner for Recruitment &amp; Travel Services in Bangladesh
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -233,10 +233,10 @@ export default function RealMadridInternational() {
             {/* Travel & Tourism */}
             <div className="group bg-zinc-50 hover:bg-white border border-transparent hover:border-zinc-200 p-10 rounded-3xl transition-all duration-300">
               <div className="h-16 w-16 bg-[#C8102E] text-white rounded-2xl flex items-center justify-center mb-8 text-4xl">✈️</div>
-              <h3 className="text-4xl font-bold tracking-tight mb-4">Travel & Tourism</h3>
+              <h3 className="text-4xl font-bold tracking-tight mb-4">Travel &amp; Tourism</h3>
               <p className="text-zinc-600 text-lg mb-8">Comprehensive travel solutions including flight ticketing, hotel bookings, tour packages, and Umrah/Hajj services.</p>
               <ul className="space-y-4 text-sm">
-                <li className="flex items-start gap-3"><span className="text-[#C8102E] mt-1">•</span> International & Domestic Flights</li>
+                <li className="flex items-start gap-3"><span className="text-[#C8102E] mt-1">•</span> International &amp; Domestic Flights</li>
                 <li className="flex items-start gap-3"><span className="text-[#C8102E] mt-1">•</span> Visa Assistance</li>
                 <li className="flex items-start gap-3"><span className="text-[#C8102E] mt-1">•</span> Tour Packages</li>
               </ul>
